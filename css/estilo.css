@@ -1,0 +1,147 @@
+
+@font-face{
+	font-family: "Pokemon Hollow";
+	src: url("../font/PokemonHollow.ttf");
+}
+
+.bordageral{
+	padding: 0 5%;
+}
+
+.nav_principal{
+	background-color: rgb(251, 255, 41);
+}
+
+.pokestore{
+	font-family: "Pokemon Hollow";
+	color: rgb(26, 125, 255) !important;
+	font-size: 200%;
+	font-weight: bold;
+}
+
+.itensmenu a{
+	color: rgb(0,0,0);
+}
+
+.itensmenu a:hover{
+	background-color: rgb(26, 125, 255);
+	color:  rgb(251, 255, 41);
+	border-radius: 20px;
+}
+
+#conteudo{
+	margin-top: 100px;
+}
+
+.linhadocard{
+	display: flex;
+	justify-content: space-between;
+}
+
+.resultado{
+	width: 90%;
+	margin: auto;
+	height: 100%;
+	box-shadow: 4px 4px 15px rgb(251, 255, 41);
+	border-radius: 25px;
+}
+
+.card-img-top{
+	border-radius: 25px 25px 0 0 !important;
+	width: 70%;
+	margin: auto;
+}
+
+.margem_baixo{
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.menubusca{
+	margin-bottom: 30px;
+	text-align: center;
+	background-color: rgb(255,255,255);
+}
+
+.menubusca input{
+	padding: 10px;
+	height: 50px;
+	width: 90%;
+	border-radius: 20px;
+}
+
+.menubusca button{
+	border-radius: 20px;
+	background-color: white;
+	height: 45px;
+}
+
+.card-footer a:hover{
+	color: rgb(26, 125, 255) !important;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.imgredes{
+	width: 40px;
+	border-radius: 50%;
+	margin: 5px;
+}
+
+.pagination{
+	width: 150px;
+	margin: auto;
+	margin-bottom: 30px;
+}
+
+.container_pokemons{
+	width: 75%;
+}
+
+.btn-comprar{
+	border: solid 1px rgb(26, 125, 255);
+	width: 100%;
+	background-color: rgb(245, 248, 66) !important;
+	box-shadow: 1px 1px 5px rgb(168, 168, 159);
+}
+
+#carrinho{
+	width: 90%;
+	border-radius: 25px;
+	border: solid 0.5px;
+	min-height: 300px;
+	padding: 5px;
+}
+
+.item_carrinho{
+	padding: 0 10px;
+	margin-top: 5px;
+	margin-bottom: 0px;
+}
+
+.img_item{
+	width: 40px;
+}
+
+.input_item{
+	width: 50px;
+	margin-left: 0;
+}
+
+.preco_item{
+	text-align: right;
+	margin-top: -30px;
+	margin-bottom: -10px;
+}
+
+.btn-remover{
+	color: rgb(202, 0, 0);
+	font-weight: bold;
+	margin-left: 85%;
+	padding: 3px;
+}
+
+#carrinho hr{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
