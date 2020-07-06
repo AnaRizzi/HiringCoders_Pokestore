@@ -109,8 +109,11 @@
 	width: 90%;
 	border-radius: 25px;
 	border: solid 0.5px;
-	min-height: 300px;
+	min-height: 100px;
 	padding: 5px;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 80px;
 }
 
 .item_carrinho{
@@ -144,4 +147,11 @@
 #carrinho hr{
 	margin-top: 0px;
 	margin-bottom: 0px;
+}
+
+#finalizar{
+	width: 90%;
+	margin: auto;
+	background-color: rgb(26, 125, 255);
+	border-radius: 20px;
 }
